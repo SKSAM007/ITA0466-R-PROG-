@@ -1,0 +1,8 @@
+plot.new()
+title(main = "Empty Plot")
+plot.new()
+title(main = "Empty Plot with Specified Axes Limits")
+xlim <- c(0, 10) 
+ylim <- c(0, 20)
+axis(1, xlim = xlim)
+axis(2, ylim = ylim)

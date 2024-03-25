@@ -1,0 +1,15 @@
+v1<-c(1,2,3)
+v2<-c("a","b","c")
+v3<-c(TRUE,FALSE,TRUE)
+m<-matrix(1:9,nrow=3)
+f<-function(x){
+  return(x^2)
+}
+l<-list(
+  "V1"=v1,
+  "V2"=v2,
+  "V3"=v3,
+  "M"=m1,
+  "Function"=f
+)
+print(l)
