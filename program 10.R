@@ -1,0 +1,5 @@
+vector <- c(7,8,4,5,1,10,17)
+m1 <- max(vector)
+m2 <- min(vector)
+cat("Maximum value:", m1, "\n")
+cat("Minimum value:", m2, "\n")
